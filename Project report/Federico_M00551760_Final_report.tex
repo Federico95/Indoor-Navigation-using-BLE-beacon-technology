@@ -1,0 +1,78 @@
+\documentclass[12]{report}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage[margin=1.9in,top=1.5in,bottom=1in,includefoot]{geometry}
+\graphicspath{ {images/} }
+\usepackage{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+
+
+
+
+%Header and footer stuff
+
+
+
+\begin{document}
+	
+	\begin{titlepage}
+		
+		\begin{center}
+			\vspace*{0.5cm}			
+			\Huge
+			\textbf{Indoor Localization system with BLE beacons technology}		
+			
+			\begin{center}
+				\line(1,0){325}	
+			\end{center}			
+		
+			\vspace{0.5cm}
+			
+			\Large		
+			\textbf{Author: Mr Federico Ricci}\\
+			\textbf{Supervisor: Dr Tuan Le}	
+			
+			\vfill		
+			A report presented for the bachelor degree of\\
+			Mechatronics engineering.\\	
+			
+			\vspace{0.8cm}		
+			
+			\includegraphics[width=1.0\textwidth]{middlesex}
+			
+			\vspace{0.8cm}
+						
+			\Large
+
+
+			\vspace{0.25cm}
+			05/2018
+			
+		\end{center}
+		\newpage
+		\thispagestyle{empty}
+		\mbox{}
+	\end{titlepage}
+
+	%Set different geometries and margins
+	\newgeometry{top=1in,bottom=1in,right=1in,left=1in}
+	
+	%Input the abstract
+	\input{abstract}
+
+	%Input acknowledgement
+	\input{Acknowledgment}
+	%Input the introduction, written as a tex file
+	
+	\newpage
+	\thispagestyle{plain}
+	\mbox{}
+	
+	\input{introduction}
+
+	%input literature review
+	\input{Literature_Review}
+
+\end{document}
