@@ -8,13 +8,6 @@
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
 \titlespacing*{\chapter}{0pt}{-20pt}{40pt}
 
-
-
-
-%Header and footer stuff
-
-
-
 \begin{document}
 	
 	\begin{titlepage}
@@ -64,14 +57,17 @@
 
 	%Input acknowledgement
 	\input{Acknowledgment}
-	%Input the introduction, written as a tex file
 	
+	%Input Table of Contents
+	\tableofcontents
 	\newpage
-	\thispagestyle{plain}
-	\mbox{}
 	
+	%Input the introduction, written as a tex file
 	\input{introduction}
-
+	
+	%Input objectives and motivation
+	\input{Goals+motivation}
+	
 	%input literature review
 	\input{Literature_Review}
 
