@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Objectives and Motivation}{5}
+\contentsline {chapter}{\numberline {3}Literature review}{6}
+\contentsline {section}{\numberline {3.1}Bluetooth Low Energy}{6}
+\contentsline {section}{\numberline {3.2}Beacons}{7}
+\contentsline {subsection}{\numberline {3.2.1}Platform Independent}{7}
+\contentsline {subsection}{\numberline {3.2.2}Not Internet Connected}{7}
+\contentsline {subsection}{\numberline {3.2.3}Do Not Steal Data}{7}
+\contentsline {subsection}{\numberline {3.2.4}They Can Detect Distance}{7}
+\contentsline {subsection}{\numberline {3.2.5}Come In Different Sizes}{8}
+\contentsline {section}{\numberline {3.3}Beacon's protocols}{9}
+\contentsline {subsection}{\numberline {3.3.1}AltBeacon}{9}
+\contentsline {subsection}{\numberline {3.3.2}Eddystone}{9}
+\contentsline {subsection}{\numberline {3.3.3}iBeacon}{10}
+\contentsline {section}{\numberline {3.4}Indoor Trilateration}{12}
